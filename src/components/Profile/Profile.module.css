@@ -4,6 +4,7 @@
     margin: 0px auto;
     border-radius: 6px;
     border: 2px solid #797979;
+    background-color:ghostwhite
   }
   
   .description {
@@ -51,6 +52,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-transform: uppercase;
   }
   
 .statsList {
@@ -61,11 +63,11 @@
 }
 
 .category {
-    font-size: 16px;
+    font-size: 12px;
     padding-bottom: 5px;
 }
 
-.percentage{
-    font-size: 14px;
+.value{
+    font-size: 12px;
     color: #797979;
 }

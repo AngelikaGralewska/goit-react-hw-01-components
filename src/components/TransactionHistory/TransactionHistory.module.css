@@ -1,0 +1,28 @@
+.transaction {
+    width: 300px;
+    margin: 0px auto;
+    padding: 25px;
+    border-radius: 6px;
+    background-color:ghostwhite;
+    border: 2px solid #797979;
+  }
+  
+  .transactionItem {
+    height: 20px;
+    text-align: center;
+    border-bottom: 1px solid #797979;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding-top: 10px;
+  }
+  
+  .transactionName {
+    background-color: #797979;
+    color:ghostwhite;
+    font-size: 12px;
+    text-transform: uppercase;
+    height: 20px;
+  }
+  
+
+ 

@@ -9,7 +9,7 @@ export const Statistics = ({ stats }) => {
           {stats.map(({ id, label, percentage }, index) => (
             <li className={style.item} key={id}>
               <span className={style.label}>{label}</span>
-              <span className={style.percentage}>{percentage}</span>
+              <span className={style.percentage}>{percentage}%</span>
             </li>
           ))}
         </ul>
