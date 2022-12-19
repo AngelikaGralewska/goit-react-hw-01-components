@@ -10,7 +10,6 @@ import { FriendList } from 'components/FriendList/FriendList';
 import transactions from 'data/transactions.json';
 import { TransactionHistory } from 'components/TransactionHistory/TransactionHistory';
 
-
 export const App = () => {
   return (
     <div
@@ -26,7 +25,6 @@ export const App = () => {
         backgroundColor:'#d5d4d4',
       }}
     >
-
       <Profile
         username={user.username}
         tag={user.tag}
@@ -34,13 +32,9 @@ export const App = () => {
         avatar={user.avatar}
         stats={user.stats}
       />
-
       <Statistics stats={data} />
-
       <FriendList friends={friends} />
-
       <TransactionHistory items={transactions} />
-
     </div>
   );
 };

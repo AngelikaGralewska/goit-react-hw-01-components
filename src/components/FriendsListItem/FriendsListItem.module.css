@@ -1,0 +1,34 @@
+
+.friendItem{
+    display:inline-flex;
+    align-items: center;
+    gap:15px;
+}
+
+.friendAvatar{
+    padding: 4px;
+    border-radius: 50%;
+    border: 1px solid #797979;
+}
+
+.friendName{
+    font-size: 12px;
+    margin: 0;
+    justify-items: center;
+    text-transform: uppercase;
+
+}
+
+.status {
+    width: 10px;
+    height: 10px;
+    border: 1px solid #797979;
+    border-radius: 50%;
+    background-color:coral;
+  }
+
+  .active {
+    composes: status;
+
+    background-color:darkseagreen;
+  }
